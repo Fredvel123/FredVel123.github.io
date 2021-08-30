@@ -1,0 +1,129 @@
+*{
+    color: rgb(68, 68, 68);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{background: rgb(231, 231, 231);}
+/* --- code for header --- */
+header{
+    margin: 20px 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95px;
+    background: rgb(163, 193, 221);
+}
+header .icon{
+    height: 100%;
+    margin: 0 10px;
+}
+header h1{
+    font-size: 50px;
+}
+/* ------- code for card img - api  ------*/
+.principal-card{
+    display: flex;
+    justify-content: center;
+    background: rgb(224, 224, 224);
+}
+.card{
+    margin: 50px 0 ;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+
+    box-shadow: -9px 12px 13px 1px rgba(0,0,0,0.37);
+    -webkit-box-shadow: -9px 12px 13px 1px rgba(0,0,0,0.37);
+    -moz-box-shadow: -9px 12px 13px 1px rgba(0,0,0,0.37);
+}
+.card h2{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.card button h3{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.card .next{
+    display: flex;
+    justify-content: center;
+}
+/* code credits section */
+.credits{
+    background: rgb(236, 236, 236);
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    margin: 50px 0;
+}
+.footer{
+    background: #000;
+    color: #fff;
+    padding: 10px 0 ;
+    display: flex;
+    justify-content: center;
+}
+.footer h1{
+    font-size: 20px;
+
+}
+/* cdo doesn't matter */
+form{
+    margin: 20px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border: #fff;
+    background: rgb(22, 142, 255);
+    color: #fff;
+    cursor: pointer;
+    margin: 10px auto;
+}
+button:hover{
+    background: crimson;
+}
+input{
+    height: 30px;
+    color: black;
+    background: #fff;
+}
+/* responsive design */
+@media screen and (max-width: 550px) {
+    header{
+        margin: 20px 0;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        background: rgb(163, 193, 221);
+    }
+    header .icon{
+        height: 100%;
+        margin: 0 10px;
+    }
+    header h1{
+        font-size: 25px;
+    }
+    /* footer */
+    .footer{
+        background: #000;
+        color: #fff;
+        padding: 10px 0 ;
+        display: flex;
+        justify-content: center;
+    }
+    .footer h1{
+        font-size: 10px;
+    
+    }
+    
+}
